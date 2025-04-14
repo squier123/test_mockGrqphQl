@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "@tanstack/react-router";
 import AppSidebar from "./AppSidebar.tsx";
-import { SidebarProvider } from "../../app/ui/Sidebar.tsx";
+import { SidebarProvider } from "../../ui/Sidebar.tsx";
 import Header from "./Header.tsx";
 const MainLayout = () => {
   return (

@@ -2,8 +2,8 @@ import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { VariantProps, cva } from "class-variance-authority";
 
-import { useIsMobile } from "../../utils/index.tsx";
-import { cn } from "../../utils/index.tsx";
+import { useIsMobile } from "../utils/index.tsx";
+import { cn } from "../utils/index.tsx";
 import {
   Sheet,
   SheetContent,

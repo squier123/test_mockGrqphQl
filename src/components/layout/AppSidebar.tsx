@@ -11,10 +11,10 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "../../app/ui/Sidebar.tsx";
+} from "../../ui/Sidebar.tsx";
 
 // icons
-import { PanelLeftIcon, Users, Server, Settings, Shapes } from "lucide-react";
+import { PanelLeftIcon, Users, Server, Shapes } from "lucide-react";
 
 // icons
 import Logo from "../../icons/Logo.tsx";

@@ -3,7 +3,7 @@ import React, { useEffect, useId, useState } from "react";
 import { GET_VISITS } from "../../services/query.tsx";
 import { UPDATE_VISIT } from "../../services/mutation.tsx";
 import VisitItem from "./VisitItem.tsx";
-import { Button } from "../../app/ui/Button.tsx";
+import { Button } from "../../ui/Button.tsx";
 
 type SortOption = "date" | "startTime" | "caregiverName";
 
