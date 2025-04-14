@@ -38,7 +38,8 @@ const Visits = () => {
   }, [data?.visits]);
 
   if (loading) return <p>Loading...</p>;
-  if (profileError) return <p>Error: {profileError.message}</p>;
+  if (profileError || error)
+    return <p>Error: {profileError?.message || error?.message}</p>;
 
   const filteredVisits = updData
     .filter((visit) => {
